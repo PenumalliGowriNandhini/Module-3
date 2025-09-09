@@ -4,16 +4,24 @@ LIST - EVEN NUMBERS LIST
 To write a Python function that accepts a number N and creates a list containing all even numbers up to N.
 
 # ALGORITHM
-Begin the program.
-Accept an integer a from the user.
-Create an empty list l.
-Use a for loop to iterate through numbers from 1 to a - 1:
+1.Begin the program.
+
+2.Accept an integer a from the user.
+
+3.Create an empty list l.
+
+4.Use a for loop to iterate through numbers from 1 to a - 1:
 For each number i, check if it is even using i % 2 == 0.
-If it is even, append i to the list l.
-Print the final list l containing all the even numbers.
-Terminate the program.
+
+5.If it is even, append i to the list l.
+
+6.Print the final list l containing all the even numbers.
+
+7.Terminate the program.
 # PROGRAM
 ```
+# REGNO:-212222060175
+# Name:-Penumalli GowriNandini
 def createlist(n):
     l=[]
     for i in range(2,n):
