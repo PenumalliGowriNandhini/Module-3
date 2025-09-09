@@ -12,11 +12,13 @@ Store the modified string in str3.
 Display the original string (str1) and the modified string (str3).
 Terminate the program.
 # PROGRAM
+```
 def replacestr(m, n):
     r=input()
     print("The old string is",m)
     
     print("the new string is",m.replace(n,r))
+```
 # OUTPUT
 <img width="797" height="329" alt="image" src="https://github.com/user-attachments/assets/ac1ca41f-b2b1-4d0d-9807-c2fd116e0bbc" />
 
