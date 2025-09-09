@@ -4,15 +4,23 @@ REGEX - PATTERN MATCHING USING REGEX
 To write a Python program that matches a string containing an 'a' followed by two to three 'b' characters using regular expressions.
 
 # ALGORITHM
-Begin the program.
-Accept a string str1 from the user.
-Define the regular expression pattern as r"[a]+b{2,3}".
-Use the re.match() function to check if the string str1 matches the pattern.
-If a match is found, print "Found a match!".
-If no match is found, print "Not matched!".
-Terminate the program.
+1.Begin the program.
+
+2.Accept a string str1 from the user.
+
+3.Define the regular expression pattern as r"[a]+b{2,3}".
+
+4.Use the re.match() function to check if the string str1 matches the pattern.
+
+5.If a match is found, print "Found a match!".
+
+6.If no match is found, print "Not matched!".
+
+7.Terminate the program.
 # PROGRAM
 ```
+# REGNO:-212222060175
+# Name:-Penumalli GowriNandini
 import re
 str=input()
 x=re.search("bb",str)
