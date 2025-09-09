@@ -4,19 +4,29 @@
 To write a Python program to create a tuple containing all multiples of 5 up to a given number N.
 
 # ALGORITHM
-Begin the program.
-Accept an integer N from the user.
-Use a generator expression inside the tuple() function to create a tuple multiples_of_5 with values starting from 5 up to N - 1, stepping by 5.
-Return the tuple multiples_of_5.
-Print the resulting tuple.
-Terminate the program.
+1.Begin the program.
+
+2.Accept an integer N from the user.
+
+3.Use a generator expression inside the tuple() function to create a tuple multiples_of_5 with values starting from 5 up to N - 1, stepping by 5.
+
+4.Return the tuple multiples_of_5.
+
+5.Print the resulting tuple.
+
+6.Terminate the program.
 # PROGRAM
+```
+# REGNO:-212222060175
+# Name:-PenumalliGowriNandini
 l=[]
 n=int(input())
 for i in range(5,n,5):
     l.append(i)
 t=tuple(l)
 print(t)
+```
+
 # OUTPUT
 <img width="778" height="229" alt="image" src="https://github.com/user-attachments/assets/99a24b2d-e0da-4732-a772-254f3fc6143d" />
 
